@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.texto-justificado{
+    text-align: justify;
+    color: whitesmoke;
+    padding: 0px 20px 0px 20px;
+}
+
+.texto-centrado{
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-color{
+    color: aqua;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen-centrada{
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.imagen-grande{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.webhost{
+    display: flexbox;
+    margin: auto;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.github{
+    display: flexbox;
+    margin: auto;
+    max-width: 35%;
+    max-height: 35%;
+}
+
+.color1{
+    background-color: rgb(147, 5, 5);
+}
+
+.color2{
+    background-color: rgb(13, 103, 119);
+}
+
+.color3{
+    background-color: rgb(85, 47, 9);
+}
+
+.color4{
+    background-color: rgb(23, 88, 9);
+}
+
+.columna{
+    float: left;
+    width: 49%;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.fila:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/***********************************************************************************************************************/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+   
+}
+
+#header{
+    background-image: url(Synthwave-Neon-80s-Background-Rafael-De-Jongh.jpg);
+    background-size: cover;
+}
+
+#nav{
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#nav ul li{
+    list-style: none;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    display: table;
+    padding: 20px 55px 20px 55px;
+}
+
+#nav ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5%;
+    border: #000000 0.5px solid;
+}
+
+hr{
+    margin-top: -2%;
+    margin-bottom: 1%;
+    background-color:white;
+    height: 5px;
+}
+
+/***************************************************************************************************************************************************/
+input[type=text]{
+    width: 350px;
+    height: 25px;
+    border-radius: 5%;
+    display: block;
+    
+}
+
+input[type=email]{
+    width: 350px;
+    height: 25px;
+    border-radius: 5%;
+    padding-left: 6px;
+    display: block;
+}
+
+textarea{
+    width: 350px;
+    border-radius: 5%;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+input[type=submit]{
+    width: 250px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: rgb(192, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+input[type=reset]{
+    width: 100px;
+    height: 30px;
+    border-radius: 5%;
+    background-color: rgb(160, 163, 0);
+    color: white;
+    font-weight: bold;
+}
+
+/***************************************************************************************************************************************************************/
+@media(max-width:1150px){
+    #header{
+        background-image: url(Synthwave-Neon-80s-Background-Rafael-De-Jongh.jpg);
+        background-size: cover;
+    }
+    
+    #nav{
+        width: 100%;
+        background-color: rgb(27, 26, 26);
+    }
+    
+    #nav ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #nav ul li{
+        list-style: none;
+    }
+    
+    #nav ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        display: table;
+        padding: 20px 20px 20px 20px;
+    }
+    
+    #nav ul li a:hover{
+        background-color: #ffffff;
+        color: black;
+        border-radius: 15%;
+        border: #000000 1px solid;
+    }
+    
+    hr{
+        margin-top: -1%;
+        margin-bottom: 1%;
+        background-color:white;
+        height: 5px;
+    }
+    
+    /***************************************************************************************************************************************************/
+    input[type=text]{
+        width: 350px;
+        height: 25px;
+        border-radius: 5%;
+        display: block;
+        
+    }
+    
+    input[type=email]{
+        width: 350px;
+        height: 25px;
+        border-radius: 5%;
+        padding-left: 6px;
+        display: block;
+    }
+    
+    textarea{
+        width: 350px;
+        border-radius: 5%;
+        padding-left: 6px;
+        padding-top: 6px;
+    }
+    
+    input[type=submit]{
+        width: 250px;
+        height: 30px;
+        border-radius: 5%;
+        background-color: rgb(192, 0, 0);
+        color: white;
+        font-weight: bold;
+    }
+    
+    input[type=reset]{
+        width: 100px;
+        height: 30px;
+        border-radius: 5%;
+        background-color: rgb(160, 163, 0);
+        color: white;
+        font-weight: bold;
+    }
+}
